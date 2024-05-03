@@ -20,7 +20,7 @@ const Menus = ({ toggle }) => {
           <Zoom>
             <div className="navbar-profile-pic">
               <a target="_blanck" href="https://media.licdn.com/dms/image/D4D03AQET1XYFmBGQ2g/profile-displayphoto-shrink_400_400/0/1707468550995?e=1714608000&v=beta&t=UvYAkCNIXeMidQsod3hTOxBlHncS5NVeYWq3Mg-HQe8" download="My_pic.jpg"><img
-                src="https://media.licdn.com/dms/image/D4D03AQET1XYFmBGQ2g/profile-displayphoto-shrink_400_400/0/1707468550995?e=1714608000&v=beta&t=UvYAkCNIXeMidQsod3hTOxBlHncS5NVeYWq3Mg-HQe8"
+                src="https://avatars.githubusercontent.com/u/159816902?s=400&u=5644805172b571935327185b6ad953937f973c14&v=4"
                 alt="profile pic"
               /></a>
             </div>

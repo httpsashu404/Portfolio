@@ -18,27 +18,21 @@ const Projects = () => {
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
-                  <span className="card-notify-badge">Registration</span>
+                  <span className="card-notify-badge">ImageResizer</span>
                   <img
-                    src="https://i.ytimg.com/vi/ot_tXO4xqo4/maxresdefault.jpg"
+                    src="https://th.bing.com/th/id/R.96c1c163a158acbc300f1111e769a34b?rik=F4bMQNjoA2WtEg&riu=http%3a%2f%2fabout.canva.com%2fwp-content%2fuploads%2fsites%2f3%2f2017%2f08%2ffb_magic-resize.png&ehk=%2bcypQtBbTf2zKhhH9kNKLMPmjtiHvMSRBXykp1Faf3M%3d&risl=&pid=ImgRaw&r=0"
                     alt="project1"
                   />
-                </div>
-                <div className="card-image-overly m-auto mt-3">
-                  <span className="card-detail-badge">Node</span>
-                  <span className="card-detail-badge">Express</span>
-                  <span className="card-detail-badge">react</span>
-                  <span className="card-detail-badge">Mongodb</span>
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
                     <h6 className="text-uppercase">
-                      Registration form
+                      Image Resizer
                     </h6>
                   </div>
                   <a
                     className="ad-btn"
-                    target="_blanck" href="https://github.com/httpsashu404/Registration.git" >
+                    target="_blanck" href="https://imgresizewithashu.netlify.app/" >
                     View
                   </a>
                 </div>
@@ -47,25 +41,19 @@ const Projects = () => {
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
-                  <span className="card-notify-badge">Weather</span>
+                  <span className="card-notify-badge">WordCounter</span>
                   <img
-                    src="https://i.ytimg.com/vi/ZC2aJJBi51s/maxresdefault.jpg"
+                    src="https://www.writinganalytics.co/assets/images/word-counter-site-card.png"
                     alt="project2"
                   />
                 </div>
-                <div className="card-image-overly m-auto mt-3">
-                  <span className="card-detail-badge">HTML</span>
-                  <span className="card-detail-badge">CSS</span>
-                  <span className="card-detail-badge">JS</span>
-                  <span className="card-detail-badge">API</span>
-                </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
-                    <h6 className="text-uppercase">Weather forcaste</h6>
+                    <h6 className="text-uppercase">Word Counter</h6>
                   </div>
                   <a
                     className="ad-btn"
-                    target="_blanck" href="https://github.com/httpsashu404/Weather-forcaste.git" >
+                    target="_blanck" href="https://wordcounterwithashu.netlify.app/" >
                     View
                   </a>
                 </div>
@@ -80,17 +68,11 @@ const Projects = () => {
                     alt="project1"
                   />
                 </div>
-                <div className="card-image-overly m-auto mt-3">
-                  <span className="card-detail-badge">Node</span>
-                  <span className="card-detail-badge">Express</span>
-                  <span className="card-detail-badge">react</span>
-                  <span className="card-detail-badge">Mongodb</span>
-                </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
                     <h5 className="text-uppercase">Expenses tracker</h5>
                   </div>
-                  <a className="ad-btn" target="_blanck" href="https://github.com/httpsashu404/Money-Tracker.git">
+                  <a className="ad-btn" target="_blanck" href="https://moneytrackerwithashu.netlify.app/">
                     View
                   </a>
                 </div>

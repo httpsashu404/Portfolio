@@ -22,7 +22,7 @@ const WorkExp = () => {
               contentArrowStyle={{
                 borderRight: "7px solid  white",
               }}
-              date="Mar 2024 - present"
+              date="Mar-Apr 2024"
               iconStyle={{ background: "#1e1e2c", color: "#fff" }}
               icon={<SiReact />}
             >
@@ -56,23 +56,6 @@ const WorkExp = () => {
               contentArrowStyle={{
                 borderRight: "7px solid  white",
               }}
-              date="Feb-Apr, 2020"
-              iconStyle={{ background: "#1e1e2c", color: "#fff" }}
-              icon={<SiReact />}
-            >
-              <h3 className="vertical-timeline-element-title">
-                Computer Hardware & Networking
-              </h3>
-              <h5 className="vertical-timeline-element-subtitle">
-                Rohtas-PMKK, Sasaram
-              </h5>
-            </VerticalTimelineElement>
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              contentStyle={{ background: "white", color: "#1e1e2c" }}
-              contentArrowStyle={{
-                borderRight: "7px solid  white",
-              }}
               date="Sep-Mar, 2022"
               iconStyle={{ background: "#1e1e2c", color: "#fff" }}
               icon={<SiReact />}
@@ -82,6 +65,23 @@ const WorkExp = () => {
               </h3>
               <h5 className="vertical-timeline-element-subtitle">
                 LAVA International Pvt. Ltd. Noida
+              </h5>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: "white", color: "#1e1e2c" }}
+              contentArrowStyle={{
+                borderRight: "7px solid  white",
+              }}
+              date="Feb-Apr, 2020"
+              iconStyle={{ background: "#1e1e2c", color: "#fff" }}
+              icon={<SiReact />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Computer Hardware & Networking
+              </h3>
+              <h5 className="vertical-timeline-element-subtitle">
+                Rohtas-PMKK, Sasaram
               </h5>
             </VerticalTimelineElement>
           </VerticalTimeline>

@@ -41,7 +41,7 @@ const Contact = () => {
                     <div className="row">
                       <h6 className="text-center">
                         <a target="_blanck" href="https://www.linkedin.com/in/ashutosh-kumar-0b03472ba/"><BsLinkedin color="blue" size={20} className="ms-3" /></a>
-                        <a target="_blanck" href="https://github.com/httpsashu404"><BsGithub color="black" size={20} className="ms-2" /></a>
+                        <a target="_blanck" href="https://github.com/httpsashu404"><BsGithub color="black" size={20} className="ms-3" /></a>
                         <a target="_blanck" href="https://orxnpgxfkuxth4njhzo0cq.on.drv.tw/www.ashuhost.com/myweb.html"><BsGlobe color="black" size={20} className="ms-3" /></a>
                         <a target="_blanck" href="https://profile.indeed.com/?hl=en_IN&co=IN&from=gnav-homepage&_ga=2.170532585.893985890.1710697104-1928171510.1710697104"><SiIndeed color="blue" size={20} className="ms-3" /></a>
                       </h6>
@@ -55,13 +55,13 @@ const Contact = () => {
                   <div className="row px-3 mb-4">
                     <form onSubmit={sendEmail}>
                       <div class="mb-3">
-                        <input type="text" name="name" class="form-control" id=" " placeholder="Your name" />
+                        <input type="text" name="name" class="form-control" id=" " placeholder="Your name" required />
                       </div>
                       <div class="mb-3">
-                        <input type="email" name="email" class="form-control" id=" " placeholder="Your email" />
+                        <input type="email" name="email" class="form-control" id=" " placeholder="Your email" required />
                       </div>
                       <div class="mb-3">
-                        <textarea name="message" class="form-control" id=" " placeholder=" Your comments"></textarea>
+                        <textarea name="message" class="form-control" id=" " placeholder=" Your comments" required></textarea>
                       </div>
                       <button type="submit" class="btn btn-primary">Comment</button>
                     </form>
