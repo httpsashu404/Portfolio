@@ -70,7 +70,7 @@ const Projects = () => {
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
-                    <h5 className="text-uppercase">Expenses tracker</h5>
+                    <h6 className="text-uppercase">Expenses tracker</h6>
                   </div>
                   <a className="ad-btn" target="_blanck" href="https://moneytrackerwithashu.netlify.app/">
                     View

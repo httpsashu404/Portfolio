@@ -1,5 +1,5 @@
 .work {
-  background-color: #1387812a;
+  background-color: #255da11a;
   margin-left: 140px;
 }
 
@@ -9,17 +9,17 @@
 
 .work-exp h2 {
   font-weight: bold;
-  color: #1e1e2c;
+  color: #294a70;
 }
 
 .work-exp hr {
-  color: #138781;
+  color: #294a70;
   width: 400px;
   margin: 10px auto;
 }
 
 .work-exp .vertical-timeline-element-title {
-  color: #138781;
+  color: #294a70;
 }
 
 .work-exp .vertical-timeline-element-subtitle {

@@ -23,15 +23,15 @@ const WorkExp = () => {
                 borderRight: "7px solid  white",
               }}
               date="Mar-Apr 2024"
-              iconStyle={{ background: "#1e1e2c", color: "#fff" }}
+              iconStyle={{ background: "#49688e", color: "#fff" }}
               icon={<SiReact />}
             >
               <h3 className="vertical-timeline-element-title">
                 Web Development
               </h3>
-              <h4 className="vertical-timeline-element-subtitle">
+              <h5 className="vertical-timeline-element-subtitle">
                 Intership at codSoft
-              </h4>
+              </h5>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
@@ -40,7 +40,7 @@ const WorkExp = () => {
                 borderRight: "7px solid  white",
               }}
               date="Feb-Mar, 2024"
-              iconStyle={{ background: "#1e1e2c", color: "#fff" }}
+              iconStyle={{ background: "#49688e", color: "#fff" }}
               icon={<SiReact />}
             >
               <h3 className="vertical-timeline-element-title">
@@ -57,7 +57,7 @@ const WorkExp = () => {
                 borderRight: "7px solid  white",
               }}
               date="Sep-Mar, 2022"
-              iconStyle={{ background: "#1e1e2c", color: "#fff" }}
+              iconStyle={{ background: "#49688e", color: "#fff" }}
               icon={<SiReact />}
             >
               <h3 className="vertical-timeline-element-title">
@@ -74,7 +74,7 @@ const WorkExp = () => {
                 borderRight: "7px solid  white",
               }}
               date="Feb-Apr, 2020"
-              iconStyle={{ background: "#1e1e2c", color: "#fff" }}
+              iconStyle={{ background: "#49688e", color: "#fff" }}
               icon={<SiReact />}
             >
               <h3 className="vertical-timeline-element-title">

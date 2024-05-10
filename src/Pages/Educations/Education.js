@@ -20,33 +20,33 @@ const Education = () => {
             contentStyle={{ background: "white", color: "black" }}
             contentArrowStyle={{ borderRight: "7px solid  white" }}
             date="2018 - 2021"
-            iconStyle={{ background: "#138781", color: "#fff" }}
+            iconStyle={{ background: "#49688e", color: "#fff" }}
             icon={<MdSchool />}
           >
             <h3 className="vertical-timeline-element-title">BCA</h3>
             <h4 className="vertical-timeline-element-subtitle">
               Shershah college, Sasaram
-            </h4><p>Computer Application</p>
+            </h4><p className="text-secondary">Computer Application</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "black" }}
             contentArrowStyle={{ borderRight: "7px solid  white" }}
             date="2016 - 2018"
-            iconStyle={{ background: "#138781", color: "#fff" }}
+            iconStyle={{ background: "#49688e", color: "#fff" }}
             icon={<MdSchool />}
           >
             <h3 className="vertical-timeline-element-title">Itermediate</h3>
             <h4 className="vertical-timeline-element-subtitle">
               I.D.B.P.S. College, Nokha
-            </h4><p>Science (maths)</p>
+            </h4><p className="text-secondary">Science (maths)</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "black" }}
             contentArrowStyle={{ borderRight: "7px solid  white" }}
             date="2016"
-            iconStyle={{ background: "#138781", color: "#fff" }}
+            iconStyle={{ background: "#49688e", color: "#fff" }}
             icon={<MdSchool />}
           >
             <h3 className="vertical-timeline-element-title">Matriculation</h3>

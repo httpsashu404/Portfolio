@@ -4,14 +4,14 @@
 }
 
 .project hr {
-  color: #138781;
+  color: #294a70;
   width: 400px;
   margin: 10px auto;
 }
 
 .project h2 {
   font-weight: bold;
-  color: #138781;
+  color: #294a70;
 }
 
 #ads {
@@ -22,10 +22,11 @@
   position: absolute;
   left: -10px;
   top: -20px;
-  background: #f29f67;
+  background: #294a70;
   text-align: center;
   border-radius: 30px 30px 30px 30px;
-  color: black;
+  color: white;
+  border:.5px solid white;
   padding: 5px 10px;
   font-size: 14px;
 }
@@ -64,7 +65,7 @@
   height: 40px;
   display: block;
   text-align: center;
-  background-color: #138781;
+  background-color: #49688e;
   color: white;
   border-radius: 80px;
   font-size: 16px;
@@ -77,9 +78,9 @@
 
 .ad-btn:hover, .view:hover {
   background-color: white;
-  color: #138781;
+  color: #49688e;
   background: transparent;
-  border: 2px solid #138781;
+  border: 2px solid #49688e;
   transition: all 0.5s ease;
   box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
 }
