@@ -1,4 +1,5 @@
 import React from "react";
+import Jump from "react-reveal/Jump";
 import { MdSchool } from "react-icons/md";
 import {
   VerticalTimeline,
@@ -10,9 +11,11 @@ const Education = () => {
   return (
     <>
       <div className=" education" id="education">
-        <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
-          Education Details
-        </h2>
+        <Jump>
+          <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
+            Education Details
+          </h2>
+        </Jump>
         <hr />
         <VerticalTimeline>
           <VerticalTimelineElement
@@ -24,9 +27,8 @@ const Education = () => {
             icon={<MdSchool />}
           >
             <h3 className="vertical-timeline-element-title">BCA</h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              Shershah college, Sasaram
-            </h4><p className="text-secondary">Computer Application</p>
+            <h5><a className="vertical-timeline-element-subtitle" href='https://shershahcollege.co.in/' target="__blank">Shershah college, Sasaram</a></h5>
+            <p className="text-secondary">Computer Application</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -37,9 +39,8 @@ const Education = () => {
             icon={<MdSchool />}
           >
             <h3 className="vertical-timeline-element-title">Itermediate</h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              I.D.B.P.S. College, Nokha
-            </h4><p className="text-secondary">Science (maths)</p>
+            <h5><a className="vertical-timeline-element-subtitle" href='https://idbpscollege.in/' target="__blank">I.D.B.P.S college, Garh Nokha</a></h5>
+            <p className="text-secondary">Science (maths)</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -50,9 +51,7 @@ const Education = () => {
             icon={<MdSchool />}
           >
             <h3 className="vertical-timeline-element-title">Matriculation</h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              Utkarmit M S, Hathini
-            </h4>
+            <h5><a className="vertical-timeline-element-subtitle" href=' '>Utkramit M.S, Hathini</a></h5>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>

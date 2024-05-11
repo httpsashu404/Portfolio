@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import emailjs from 'emailjs-com';
-import Rotate from "react-reveal/Rotate";
+import RubberBand from "react-reveal/RubberBand";
 import LightSpeed from "react-reveal/LightSpeed";
 import { SiIndeed } from "react-icons/si";
 import { BsGithub, BsLinkedin, BsGlobe } from "react-icons/bs";
@@ -35,7 +35,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="col-lg-6 col-md-6">
-              <Rotate>
+              <RubberBand>
                 <div className="card2 d-flex card border-0 px-4 py-5">
                   <div className="row">
                     <div className="row">
@@ -67,7 +67,7 @@ const Contact = () => {
                     </form>
                   </div>
                 </div>
-              </Rotate>
+              </RubberBand>
             </div>
           </div>
         </div>

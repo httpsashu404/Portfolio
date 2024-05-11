@@ -1,20 +1,23 @@
 import React from "react";
 import "./Projects.css";
-import Spin from "react-reveal/Spin";
+import Jump from "react-reveal/Jump";
+import Zoom from "react-reveal/Zoom";
 const Projects = () => {
   return (
     <>
       <div className="continer project" id="projects">
-        <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
-          TOP RECENT PROJECTS
-        </h2>
+        <Jump>
+          <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
+            TOP RECENT PROJECTS
+          </h2>
+        </Jump>
         <hr />
         <p className="pb-3 text-center">
           {/* Here types about your project */}
         </p>
         {/* card design */}
         <div className="row" id="ads">
-          <Spin>
+          <Zoom>
             <div className="col-md-4">
               <div className="card rounded">
                 <div className="card-image">
@@ -78,7 +81,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </Spin>
+          </Zoom>
         </div>
         <a className="view" target="_blanck" href="https://github.com/httpsashu404?tab=repositories">VIEW MORE....</a>
       </div>

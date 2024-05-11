@@ -1,18 +1,21 @@
 import React from "react";
 import "./About.css";
-import Jump from "react-reveal/Jump";
+import Fade from "react-reveal/Fade";
+import Zoom from "react-reveal/Zoom";
 const About = () => {
   return (
     <>
-      <Jump>
-        <div className="about" id="about">
-          <div className="row">
+      <div className="about" id="about">
+        <div className="row">
+          <Zoom>
             <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img">
               <img
                 src="https://avatars.githubusercontent.com/u/159816902?s=400&u=5644805172b571935327185b6ad953937f973c14&v=4"
                 alt="profile_pic"
               />
             </div>
+          </Zoom>
+          <Fade right>
             <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-content">
               <h1>About me</h1>
               <p>
@@ -23,9 +26,9 @@ const About = () => {
                 Explore my projects to see how I combine creativity and technical expertise to deliver impactful digital experiences.
               </p>
             </div>
-          </div>
+          </Fade>
         </div>
-      </Jump>
+      </div>
     </>
   );
 };

@@ -7,7 +7,7 @@ import Techstack from "./Pages/Techstack/Techstack";
 import WorkExp from "./Pages/workExp/WorkExp";
 import ScrollToTop from "react-scroll-to-top";
 import { useTheme } from "./context/ThemeContext";
-import Tada from "react-reveal/Tada";
+import Jump from "react-reveal/Jump";
 import MobileNav from "./components/MobileNav/MobileNav";
 function App() {
   const [theme] = useTheme();
@@ -25,9 +25,9 @@ function App() {
           <Contact />
         </div>
         <div className="footer pb-3 ms-3">
-          <Tada>
+          <Jump>
             <h4 className="text-center">Made With &hearts; httpsashu404&copy;.2024</h4>
-          </Tada>
+          </Jump>
         </div>
       </div>
       <ScrollToTop
