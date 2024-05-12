@@ -8,12 +8,15 @@ import WorkExp from "./Pages/workExp/WorkExp";
 import ScrollToTop from "react-scroll-to-top";
 import { useTheme } from "./context/ThemeContext";
 import Jump from "react-reveal/Jump";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import MobileNav from "./components/MobileNav/MobileNav";
 function App() {
   const [theme] = useTheme();
   return (
     <>
       <div id={theme}>
+      <ToastContainer />
         <MobileNav />
         <Layout />
         <div className="container">

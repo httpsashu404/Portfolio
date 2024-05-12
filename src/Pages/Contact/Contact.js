@@ -1,21 +1,29 @@
 import React from "react";
 import "./Contact.css";
 import emailjs from 'emailjs-com';
-import RubberBand from "react-reveal/RubberBand";
 import LightSpeed from "react-reveal/LightSpeed";
 import { SiIndeed } from "react-icons/si";
+import { toast } from 'react-toastify';
 import { BsGithub, BsLinkedin, BsGlobe } from "react-icons/bs";
+import { Zoom } from "react-reveal";
 
 const Contact = () => {
   function sendEmail(e) {
     e.preventDefault();
-    emailjs.sendForm('service_gkzq216', 'template_kxxmdk4', e.target, 'hzJ1vckYghaSEDVmP')
+    emailjs.sendForm('serviceId', 'tamplateId', e.target, 'Key')
       .then((result) => {
-        //  alert(result.text);
-        alert("Comment send successfull.");
-      }, (error) => {
-        //  alert(error.text);
-        alert("Comment send unsuccessfull");
+        toast.promise(
+          new Promise((resolve, reject) => {
+            setTimeout(() => {
+              resolve()
+            }, 2000);
+          }),
+          {
+            pending: "Comment sending....",
+            success: "Comment sent success",
+            error: "Comment sent failed "
+          }
+        )
       });
   }
   return (
@@ -35,7 +43,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="col-lg-6 col-md-6">
-              <RubberBand>
+              <Zoom>
                 <div className="card2 d-flex card border-0 px-4 py-5">
                   <div className="row">
                     <div className="row">
@@ -61,13 +69,13 @@ const Contact = () => {
                         <input type="email" name="email" class="form-control" id=" " placeholder="Your email" required />
                       </div>
                       <div class="mb-3">
-                        <textarea name="message" class="form-control" id=" " placeholder=" Your comments" required></textarea>
+                        <textarea name="message" class="form-control" id=" " placeholder=" Your comments" required ></textarea>
                       </div>
                       <button type="submit" class="btn btn-primary">Comment</button>
                     </form>
                   </div>
                 </div>
-              </RubberBand>
+              </Zoom>
             </div>
           </div>
         </div>
