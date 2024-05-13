@@ -5,7 +5,7 @@
   **Link :** https://techboyportfolio.netlify.app/
 
   **Image : 1** <br/>
-<img width="960" alt="img" src="https://github.com/httpsashu404/Portfolio/assets/159816902/12b6e13e-ca0f-4f4d-a289-906347c94d09">
+<img width="960" alt="img" src="https://github.com/httpsashu404/Portfolio/assets/159816902/02d5aaa2-17f6-42cc-bfea-d61589b03dcd">
   
   **Image : 2** <br/>
 <img width="960" alt="img1" src="https://github.com/httpsashu404/Portfolio/assets/159816902/72ac76de-1bca-4ded-b355-4ce8e56b5b59">
