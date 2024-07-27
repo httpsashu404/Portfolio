@@ -10,7 +10,7 @@ import { Zoom } from "react-reveal";
 const Contact = () => {
   function sendEmail(e) {
     e.preventDefault();
-    emailjs.sendForm('service_gkzq216', 'template_kxxmdk4', e.target, 'qkEMb9LeTCGm_669l')
+    emailjs.sendForm('serviceId', 'tamplateId', e.target, '')
       .then((result) => {
         toast.promise(
           new Promise((resolve, reject) => {
