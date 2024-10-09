@@ -17,14 +17,14 @@ function App() {
   return (
     <>
       <div id={theme}>
-      <ToastContainer />
+        <ToastContainer />
         <MobileNav />
         <Layout />
         <div className="container">
           <About />
           <Education />
           <Techstack />
-          <Course/>
+          <Course />
           <Projects />
           <WorkExp />
           <Contact />
