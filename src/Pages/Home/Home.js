@@ -16,7 +16,7 @@ const Home = () => {
   };
 
   // correct password
-  const correctPassword = '202211'
+  const correctPassword = ' '
   const handleDownload = () => {
     // Prompt the user for the password
     const password = prompt('Please enter the password to download the resume :');
