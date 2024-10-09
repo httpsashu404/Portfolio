@@ -1,11 +1,13 @@
 import React from "react";
 import { useTheme } from "../../context/ThemeContext";
 import Typewriter from "typewriter-effect";
-import Resume from "../../assets/docs/resume.pdf";
 import { SlCallEnd } from "react-icons/sl";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 import "./Home.css";
 import Fade from "react-reveal/Fade";
+
+// You will be self create file and put your resume with same name
+import Resume from "../../assets/docs/resume.pdf";
 
 
 const Home = () => {
