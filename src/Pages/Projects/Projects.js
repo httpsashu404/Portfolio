@@ -18,6 +18,24 @@ const Projects = () => {
         {/* card design */}
         <div className="row justify-content-center" id="ads">
           <Zoom>
+            {/* Color Prediction start */}
+            <div className="col-md-4 mb-3">
+              <div className="card rounded">
+                <div className="card-image">
+                  <img src="https://www.codester.com/static/uploads/items/000/044/44411/preview-xl.jpg" alt="project8" />
+                </div>
+                <div className="card-body text-center">
+                  <div className="ad-title m-auto">
+                    <h6 className="text-uppercase">Color Prediction</h6>
+                  </div>
+                  <a className="ad-btn" target="_blanck" href="https://httpsashu404.github.io/ColorPredictionGame/">
+                    View
+                  </a>
+                </div>
+              </div>
+            </div>
+            {/* Color Prediction End */}
+
             {/* E-commerce start */}
             <div className="col-md-4 mb-3">
               <div className="card rounded">

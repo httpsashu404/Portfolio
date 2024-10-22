@@ -27,7 +27,7 @@ const Contact = () => {
   function sendEmail(e) {
     e.preventDefault();
     try {
-      const result = emailjs.sendForm('Service_key', 'Tamplate_key', e.target, 'Public_key')
+      const result = emailjs.sendForm('service_gkzq216', 'template_kxxmdk4', e.target, 'qkEMb9LeTCGm_669l')
       if (result) {
         toast.success('Comment sent successfully', {
           position: "top-right",
