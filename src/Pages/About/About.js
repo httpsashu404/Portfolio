@@ -19,7 +19,7 @@ const About = () => {
             <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-content">
               <h1>About me</h1>
               <p>
-                Welcome to my portfolio! I'm Ashutosh Kumar from Bihar. I'm a dedicated MERN (MongoDB, Express.js, React.js, Node.js) developer with a passion for crafting efficient and user-friendly web applications. With a keen eye for detail and a commitment to excellence, I specialize in leveraging the power of the MERN stack to build dynamic and scalable solutions. Explore my projects to see how I combine creativity and technical expertise to deliver impactful digital experiences.
+                Welcome to my portfolio! I'm Ashutosh Kumar from Bihar. As a passionate MERN Developer, I specialize in building dynamic and scalable web applications. With a strong foundation in front-end and back-end development, I am adept at creating intuitive user interfaces and ensuring seamless server-side functionality. I enjoy solving complex problems and am constantly updating my skills to stay current with the latest technologies. My goal is to deliver efficient, high-quality website and impactful digital experiences that meet users’ needs.
               </p>
             </div>
           </Fade>
