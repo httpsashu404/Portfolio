@@ -21,8 +21,8 @@ const Projects = () => {
             {/* Color Prediction start */}
             <div className="col-md-4 mb-3">
               <div className="card rounded">
-                <div className="card-image">
-                  <img src="https://www.codester.com/static/uploads/items/000/044/44411/preview-xl.jpg" alt="project8" />
+                <div className="card-image p-1">
+                  <img className="rounded border shadow" src="https://www.codester.com/static/uploads/items/000/044/44411/preview-xl.jpg" alt="project8" />
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
@@ -39,8 +39,8 @@ const Projects = () => {
             {/* E-commerce start */}
             <div className="col-md-4 mb-3">
               <div className="card rounded">
-                <div className="card-image">
-                  <img src="https://francetravelpages.com/wp-content/uploads/2023/09/Understanding-Soldes-2024-768x432.jpg" alt="project7" />
+                <div className="card-image p-1">
+                  <img className="rounded border shadow" src="https://francetravelpages.com/wp-content/uploads/2023/09/Understanding-Soldes-2024-768x432.jpg" alt="project7" />
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
@@ -57,8 +57,8 @@ const Projects = () => {
             {/* calculator start */}
             <div className="col-md-4 mb-3">
               <div className="card rounded">
-                <div className="card-image">
-                  <img src="https://i.ytimg.com/vi/oFxanU9QlbI/maxresdefault.jpg" alt="project6" />
+                <div className="card-image p-1">
+                  <img className="rounded border shadow" src="https://i.ytimg.com/vi/oFxanU9QlbI/maxresdefault.jpg" alt="project6" />
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
@@ -75,8 +75,8 @@ const Projects = () => {
             {/* weather forcaste start */}
             <div className="col-md-4 mb-3">
               <div className="card rounded">
-                <div className="card-image">
-                  <img src="https://cdn.browsercam.com/headers/com.weather.forecaster.updates-header.png" alt="project5" /><br />
+                <div className="card-image p-1">
+                  <img className="rounded border shadow" src="https://cdn.browsercam.com/headers/com.weather.forecaster.updates-header.png" alt="project5" /><br />
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
@@ -93,8 +93,8 @@ const Projects = () => {
             {/* AR-infotech start */}
             <div className="col-md-4 mb-3">
               <div className="card rounded">
-                <div className="card-image">
-                  <img src="https://www.secomapp.com/wp-content/uploads/2023/10/landing-page.png" alt="project4" />
+                <div className="card-image p-1">
+                  <img className="rounded border shadow" src="https://www.secomapp.com/wp-content/uploads/2023/10/landing-page.png" alt="project4" />
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
@@ -111,8 +111,8 @@ const Projects = () => {
             {/* expenses tracker start */}
             <div className="col-md-4 mb-3">
               <div className="card rounded">
-                <div className="card-image">
-                  <img
+                <div className="card-image p-1">
+                  <img className="rounded border shadow"
                     src="https://i.ytimg.com/vi/w18iNp5NsKQ/maxresdefault.jpg"
                     alt="project3"
                   />
@@ -132,8 +132,8 @@ const Projects = () => {
             {/* word counter start */}
             <div className="col-md-4 mb-3">
               <div className="card rounded">
-                <div className="card-image">
-                  <img
+                <div className="card-image p-1">
+                  <img className="rounded border shadow"
                     src="https://www.writinganalytics.co/assets/images/word-counter-site-card.png"
                     alt="project2"
                   />
@@ -155,8 +155,8 @@ const Projects = () => {
             {/* image resizer start */}
             <div className="col-md-4 mb-3">
               <div className="card rounded">
-                <div className="card-image">
-                  <img
+                <div className="card-image p-1">
+                  <img className="rounded border shadow"
                     src="https://clipartcraft.com/images/canva-logo-animated.png"
                     alt="project1"
                   />
