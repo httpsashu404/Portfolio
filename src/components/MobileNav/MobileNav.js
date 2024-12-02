@@ -43,7 +43,7 @@ const MobileNav = () => {
             />
           )}
 
-          <span className="mobile-nav-title">My Profile</span>
+          <span className="mobile-nav-title">Httpsashu404</span>
         </div>
         {open && (
           <div className="mobile-nav-menu">
