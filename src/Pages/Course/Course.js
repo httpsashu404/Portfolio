@@ -19,6 +19,21 @@ const Course = () => {
                 <hr />
                 <VerticalTimeline> 
 
+                    {/* Sharpner tech start */}
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        contentStyle={{ background: "white", color: "black" }}
+                        contentArrowStyle={{ borderRight: "7px solid  white" }}
+                        date="Jan - now, 2025"
+                        iconStyle={{ background: "#49688e", color: "#fff" }}
+                        icon={<MdSchool />}
+                    >
+                        <h3 className="vertical-timeline-element-title">Full Stack Development</h3>
+                        <h5><a className="vertical-timeline-element-subtitle" href='https://www.sharpener.tech/' target="__blank">Sharpener Tech (Online)</a></h5>
+                        <p className="text-secondary">DSA, Frontend with React & Redux, Backend with Node & Express, Live Projects, Internship</p>
+                    </VerticalTimelineElement>
+                    {/* Sharpner tech end */}
+
                     {/* Apna college start */}
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"

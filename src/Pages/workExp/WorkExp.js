@@ -18,7 +18,7 @@ const WorkExp = () => {
             </h2>
           </Jump>
           <hr />
-          <VerticalTimeline lineColor="#1e1e2c">            
+          <VerticalTimeline lineColor="#1e1e2c">
             {/* Orinson techonology start */}
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
@@ -95,25 +95,6 @@ const WorkExp = () => {
             </VerticalTimelineElement>
             {/* BhartIntern end */}
 
-            {/* Lava international start */}
-            <VerticalTimelineElement
-              className="vertical-timeline-element--work"
-              contentStyle={{ background: "white", color: "#1e1e2c" }}
-              contentArrowStyle={{
-                borderRight: "7px solid  white",
-              }}
-              date="Sep(2021)-Mar(2022)"
-              iconStyle={{ background: "#49688e", color: "#fff" }}
-              icon={<SiReact />}
-            >
-              <h3 className="vertical-timeline-element-title">
-                Mobail Manufacturing
-              </h3>
-              <h5><a className="vertical-timeline-element-subtitle" href='https://www.lavamobiles.com/contactus' target="__blank">LAVA Internatonal Pvt. Ltd, Noida</a></h5>
-              <p className="text-secondary">Training (Onsite)</p>
-            </VerticalTimelineElement>
-            {/* Lava international end */}
-
             {/* PMKK start */}
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
@@ -132,7 +113,7 @@ const WorkExp = () => {
               <p className="text-secondary">Traning (Onsite)</p>
             </VerticalTimelineElement>
             {/* PMKK end */}
-            
+
           </VerticalTimeline>
         </div>
       </div>

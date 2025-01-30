@@ -40,7 +40,7 @@ const Projects = () => {
             <div className="col-md-4 mb-3">
               <div className="card rounded">
                 <div className="card-image p-1">
-                  <img className="rounded border shadow" src="https://francetravelpages.com/wp-content/uploads/2023/09/Understanding-Soldes-2024-768x432.jpg" alt="project7" />
+                  <img className="rounded border shadow" src="https://images.tech.co/wp-content/uploads/2022/03/22104111/ecommerce-on-devices-e1647960151207.jpeg" alt="project7" />
                 </div>
                 <div className="card-body text-center">
                   <div className="ad-title m-auto">
