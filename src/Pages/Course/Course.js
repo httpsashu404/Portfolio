@@ -17,22 +17,37 @@ const Course = () => {
                     </h2>
                 </Jump>
                 <hr />
-                <VerticalTimeline> 
+                <VerticalTimeline>
 
-                    {/* Sharpner tech start */}
+                    {/* SSC Prepration start */}
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: "white", color: "black" }}
                         contentArrowStyle={{ borderRight: "7px solid  white" }}
-                        date="Jan - now, 2025"
+                        date="Jul - till, 2025"
                         iconStyle={{ background: "#49688e", color: "#fff" }}
                         icon={<MdSchool />}
                     >
-                        <h3 className="vertical-timeline-element-title">Full Stack Development</h3>
-                        <h5><a className="vertical-timeline-element-subtitle" href='https://www.sharpener.tech/' target="__blank">Sharpener Tech (Online)</a></h5>
+                        <h3 className="vertical-timeline-element-title">SSC Prepration (Myself)</h3>
+                        <h5><a className="vertical-timeline-element-subtitle" href='https://www.youtube.com/@rankersgurukullive' target="__blank">Rankers Gurukul (YouTube)</a></h5>
+                        <p className="text-secondary">SSC, Banking, Railway, etc. </p>
+                    </VerticalTimelineElement>
+                    {/* SSC Prepration end */}
+
+                    {/* Intership Studio start */}
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--work"
+                        contentStyle={{ background: "white", color: "black" }}
+                        contentArrowStyle={{ borderRight: "7px solid  white" }}
+                        date="Aug - Feb, 2025"
+                        iconStyle={{ background: "#49688e", color: "#fff" }}
+                        icon={<MdSchool />}
+                    >
+                        <h3 className="vertical-timeline-element-title">Full Web Development</h3>
+                        <h5><a className="vertical-timeline-element-subtitle" href='https://internshipstudio.com/' target="__blank">Intership Studio (Online)</a></h5>
                         <p className="text-secondary">DSA, Frontend with React & Redux, Backend with Node & Express, Live Projects, Internship</p>
                     </VerticalTimelineElement>
-                    {/* Sharpner tech end */}
+                    {/* Intership Studio end */}
 
                     {/* Apna college start */}
                     <VerticalTimelineElement
@@ -78,7 +93,7 @@ const Course = () => {
                         <p className="text-secondary">Computer basic, Hardware, Networing, Troubleshooting, OS intallation & Formatting</p>
                     </VerticalTimelineElement>
                     {/* Rohtas PMKK end */}
-                    
+
                 </VerticalTimeline>
             </div>
         </>

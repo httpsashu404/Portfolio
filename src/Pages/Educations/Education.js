@@ -39,12 +39,12 @@ const Education = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "black" }}
             contentArrowStyle={{ borderRight: "7px solid  white" }}
-            date="Sep(2022)-Jun(2023)"
+            date="Sep-Jun, 2023"
             iconStyle={{ background: "#49688e", color: "#fff" }}
             icon={<MdSchool />}
           >
             <h3 className="vertical-timeline-element-title">NIMCET Prepration (MCA)</h3>
-            <h5><a className="vertical-timeline-element-subtitle" href='https://nitkkr.ac.in/' target="__blank">NIT Kurukshetra (Alloted me)</a></h5>
+            <h5><a className="vertical-timeline-element-subtitle" href='https://github.com/user-attachments/assets/3ae8bb3b-cbcc-485f-9aae-51586ae4820f' target="__blank">NIT Kurukshetra (Alloted me)</a></h5>
             <p className="text-secondary">I cancelled admission reason financial problem</p>
           </VerticalTimelineElement>
           {/* NIT end */}
@@ -60,7 +60,7 @@ const Education = () => {
           >
             <h3 className="vertical-timeline-element-title">BCA</h3>
             <h5><a className="vertical-timeline-element-subtitle" href='https://shershahcollege.co.in/' target="__blank">Shershah college, Sasaram</a></h5>
-            <p className="text-secondary">Passed in Sep. 2022 (Session late + COVID-19)</p>
+            <p className="text-secondary">Passed with 71%<br />Passed in Sep. 2022 (Session late + COVID-19)</p>
           </VerticalTimelineElement>
           {/* BCA end */}
 
@@ -75,7 +75,7 @@ const Education = () => {
           >
             <h3 className="vertical-timeline-element-title">Itermediate</h3>
             <h5><a className="vertical-timeline-element-subtitle" href='https://idbpscollege.in/' target="__blank">I.D.B.P.S college, Garh Nokha</a></h5>
-            <p className="text-secondary">Science (maths)</p>
+            <p className="text-secondary">Science (maths) with 46%</p>
           </VerticalTimelineElement>
           {/* Intermediate end  */}
 
@@ -90,6 +90,7 @@ const Education = () => {
           >
             <h3 className="vertical-timeline-element-title">Matriculation</h3>
             <h5><a className="vertical-timeline-element-subtitle" href=' '>Utkramit M.S, Hathini</a></h5>
+            <p className="text-secondary">Passed with 60%</p>
           </VerticalTimelineElement>
           {/* Matric end */}
           

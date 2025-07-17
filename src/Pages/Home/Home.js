@@ -18,22 +18,16 @@ const Home = () => {
   };
 
   // correct password
-  const correctPassword = '202211'
   const handleDownload = () => {
     // Prompt the user for the password
-    const password = prompt('Please enter the password to download the resume :');
 
-    if (password === correctPassword) {
-      const link = document.createElement('a');
-      link.href = Resume;
-      link.download = 'resume.pdf';
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link); // Remove the link from the body
-    } else {
-      // Show an alert if the password is incorrect
-      alert('Incorrect password');
-    }
+    const link = document.createElement('a');
+    link.href = Resume;
+    link.download = 'resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link); // Remove the link from the body
+
   };
 
   return (
@@ -65,17 +59,17 @@ const Home = () => {
           </Fade>
           <Fade bottom>
             <div className="home-buttons">
-              <a title="call me" className="btn btn-call" target="_blanck" href="tel:7763992074">
+              <a title="Call" className="btn btn-call" target="_blanck" href="tel:7763992074">
                 <SlCallEnd />
               </a>
-              <a title="hire me"
+              <a title="Hire me"
                 className="btn btn-hire"
                 target="_blanck" href="https://api.whatsapp.com/send?phone=7763992074"
                 rel="noreferrer"
               >
                 Hire Me
               </a>
-              <button className="btn btn-cv" onClick={handleDownload}>
+              <button title="Resume" className="btn btn-cv" onClick={handleDownload}>
                 Resume
               </button>
             </div>
