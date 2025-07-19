@@ -34,7 +34,7 @@ const WorkExp = () => {
               <h3 className="vertical-timeline-element-title">
                 Full Web development
               </h3>
-              <h5><a className="vertical-timeline-element-subtitle" href='https://github.com/user-attachments/assets/97839a40-95b7-4ab4-97fa-6fe35c19ec2a' target="__blank">Internship Studio (iStudio)</a></h5>
+              <h5><a className="vertical-timeline-element-subtitle" href='https://ibb.co/sX4TwsD' target="__blank">Internship Studio (iStudio)</a></h5>
               <p className="text-secondary">Internship+Traning (Remote)</p>
             </VerticalTimelineElement>
             {/* Internship Studio end */}
@@ -53,7 +53,7 @@ const WorkExp = () => {
               <h3 className="vertical-timeline-element-title">
                 Full stack development
               </h3>
-              <h5><a className="vertical-timeline-element-subtitle" href='https://github.com/user-attachments/assets/f7555b82-1872-4a5c-869b-c81e45d9fd04' target="__blank">Orinson technologies pvt. ltd.</a></h5>
+              <h5><a className="vertical-timeline-element-subtitle" href='https://ibb.co/kVYdxv0k' target="__blank">Orinson technologies pvt. ltd.</a></h5>
               <p className="text-secondary">Internship (Remote)</p>
             </VerticalTimelineElement>
             {/* Orinson technology end */}
@@ -72,7 +72,7 @@ const WorkExp = () => {
               <h3 className="vertical-timeline-element-title">
                 Web Development
               </h3>
-              <h5><a className="vertical-timeline-element-subtitle" href='https://github.com/user-attachments/assets/538e8523-d938-43a9-b8ce-4df2dcc08e42' target="__blank">Intern with TopperWorld</a></h5>
+              <h5><a className="vertical-timeline-element-subtitle" href='https://ibb.co/3xgLDL4' target="__blank">Intern with TopperWorld</a></h5>
               <p className="text-secondary">Internship (Remote)</p>
             </VerticalTimelineElement>
             {/* TopperWorld end */}
@@ -91,7 +91,7 @@ const WorkExp = () => {
               <h3 className="vertical-timeline-element-title">
                 Web Development
               </h3>
-              <h5><a className="vertical-timeline-element-subtitle" href='https://github.com/user-attachments/assets/2818ec78-21f5-4005-9acb-31cc24cf1f62' target="__blank">Intern with codSoft</a></h5>
+              <h5><a className="vertical-timeline-element-subtitle" href='https://ibb.co/0Vr9V7QR' target="__blank">Intern with codSoft</a></h5>
               <p className="text-secondary">Internship (Remote)</p>
             </VerticalTimelineElement>
             {/* Codsoft end */}
@@ -110,7 +110,7 @@ const WorkExp = () => {
               <h3 className="vertical-timeline-element-title">
                 Full Stack Developer
               </h3>
-              <h5><a className="vertical-timeline-element-subtitle" href='https://github.com/user-attachments/assets/7acb8131-ecbc-486e-86a2-c7379f4f334d' target="__blank">Intern with BhartIntern</a></h5>
+              <h5><a className="vertical-timeline-element-subtitle" href='https://ibb.co/4wgNnm0d' target="__blank">Intern with BhartIntern</a></h5>
               <p className="text-secondary">Internship (Remote)</p>
             </VerticalTimelineElement>
             {/* BhartIntern end */}
@@ -129,7 +129,7 @@ const WorkExp = () => {
               <h3 className="vertical-timeline-element-title">
                 Computer Hardware & Networking
               </h3>
-              <h5><a className="vertical-timeline-element-subtitle" href='https://github.com/user-attachments/assets/830c3eba-9e4e-41a9-8304-2e1025923d4b' target="__blank">Rohtas-PMKK, Sasaram</a></h5>
+              <h5><a className="vertical-timeline-element-subtitle" href='https://ibb.co/JWRwTRgH' target="__blank">Rohtas-PMKK, Sasaram</a></h5>
               <p className="text-secondary">Traning (Onsite)</p>
             </VerticalTimelineElement>
             {/* PMKK end */}

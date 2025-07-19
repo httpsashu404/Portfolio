@@ -33,7 +33,7 @@ const Education = () => {
             <p className="text-secondary">I left it reason teaching language problem</p>
           </VerticalTimelineElement>
           {/* GCT end */}
-          
+
           {/* NIT start */}
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -44,7 +44,7 @@ const Education = () => {
             icon={<MdSchool />}
           >
             <h3 className="vertical-timeline-element-title">NIMCET Prepration (MCA)</h3>
-            <h5><a className="vertical-timeline-element-subtitle" href='https://github.com/user-attachments/assets/3ae8bb3b-cbcc-485f-9aae-51586ae4820f' target="__blank">NIT Kurukshetra (Alloted me)</a></h5>
+            <h5><a className="vertical-timeline-element-subtitle" href='https://ibb.co/W4wmj2QY' target="__blank">NIT Kurukshetra (Alloted me)</a></h5>
             <p className="text-secondary">I cancelled admission reason financial problem</p>
           </VerticalTimelineElement>
           {/* NIT end */}
@@ -93,7 +93,7 @@ const Education = () => {
             <p className="text-secondary">Passed with 60%</p>
           </VerticalTimelineElement>
           {/* Matric end */}
-          
+
         </VerticalTimeline>
       </div>
     </>
