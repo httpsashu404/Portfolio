@@ -4,7 +4,8 @@ import emailjs from 'emailjs-com';
 import LightSpeed from "react-reveal/LightSpeed";
 import { SiIndeed } from "react-icons/si";
 import { toast } from 'react-toastify';
-import { BsGithub, BsLinkedin, BsInstagram } from "react-icons/bs";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
+import { FaAtlassian } from "react-icons/fa";
 import { Zoom } from "react-reveal";
 
 const Contact = () => {
@@ -92,7 +93,7 @@ const Contact = () => {
                       <h6 className="text-center">
                         <a target="_blanck" href="https://www.linkedin.com/in/ashutosh-kumar-0b03472ba/"><BsLinkedin color="blue" size={20} className="ms-3" /></a>
                         <a target="_blanck" href="https://github.com/httpsashu404"><BsGithub color="black" size={20} className="ms-3" /></a>
-                        <a target="_blanck" href="https://www.instagram.com/httpsashu404/"><BsInstagram color="black" size={20} className="ms-3" /></a>
+                        <a target="_blanck" href="https://apna.co/profile"><FaAtlassian color="purple" size={20} className="ms-3" /></a>
                         <a target="_blanck" href="https://profile.indeed.com/?hl=en_IN&co=IN&from=gnav-homepage&_ga=2.170532585.893985890.1710697104-1928171510.1710697104"><SiIndeed color="blue" size={20} className="ms-3" /></a>
                       </h6>
                     </div>

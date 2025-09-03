@@ -10,7 +10,7 @@ const About = () => {
           <Zoom>
             <div className="col-md-6 col-xl-6 col-lg-6 col-xs-12 about-img">
               <img
-                src="https://avatars.githubusercontent.com/u/159816902?s=400&u=5644805172b571935327185b6ad953937f973c14&v=4"
+                src="https://avatars.githubusercontent.com/u/159816902?v=4https://avatars.githubusercontent.com/u/159816902?v=4https://avatars.githubusercontent.com/u/159816902?v=4"
                 alt="profile_pic"
               />
             </div>
