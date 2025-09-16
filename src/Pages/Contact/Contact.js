@@ -113,10 +113,13 @@ const Contact = () => {
                         <input type="text" name="name" className="form-control" id=" " placeholder="Your name" required />
                       </div>
                       <div className="mb-3">
+                        <input type="number" name="tel" className="form-control" id=" " maxLength={10} placeholder="Your phone" required />
+                      </div>
+                      <div className="mb-3">
                         <input type="email" name="email" className="form-control" id=" " placeholder="Your email" required />
                       </div>
                       <div className="mb-3">
-                        <textarea name="message" className="form-control" id=" " placeholder=" Your comments" required ></textarea>
+                        <textarea name="message" className="form-control" id=" " placeholder=" Your message" required ></textarea>
                       </div>
                       <button type="submit" id="myButton" onClick={buttonDisable} className="btn btn-primary">Comment</button>
                     </form>
