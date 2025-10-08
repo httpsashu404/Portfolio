@@ -29,7 +29,7 @@ const WorkExp = () => {
               }}
               date="Aug-Feb 2025"
               iconStyle={{ background: "#49688e", color: "#fff" }}
-              icon={<SiReact />}
+              icon={<SiReact />} 
             >
               <h3 className="vertical-timeline-element-title">
                 Full Web development
@@ -115,6 +115,26 @@ const WorkExp = () => {
             </VerticalTimelineElement>
             {/* BhartIntern end */}
 
+
+            {/* Lava start */}
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              contentStyle={{ background: "white", color: "#1e1e2c" }}
+              contentArrowStyle={{
+                borderRight: "7px solid  white",
+              }}
+              date="Sep-Mar, 2021"
+              iconStyle={{ background: "#49688e", color: "#fff" }}
+              icon={<SiReact />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Mobile manufacturing
+              </h3>
+              <h5><a className="vertical-timeline-element-subtitle" href='https://ibb.co/HDg099L4' target="__blank">LAVA International Ltd. (Noida)</a></h5>
+              <p className="text-secondary">Trainee (Onsite)</p>
+            </VerticalTimelineElement>
+            {/* Lava end */}
+
             {/* PMKK start */}
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
@@ -130,7 +150,7 @@ const WorkExp = () => {
                 Computer Hardware & Networking
               </h3>
               <h5><a className="vertical-timeline-element-subtitle" href='https://ibb.co/JWRwTRgH' target="__blank">Rohtas-PMKK, Sasaram</a></h5>
-              <p className="text-secondary">Traning (Onsite)</p>
+              <p className="text-secondary">Trainee (Onsite)</p>
             </VerticalTimelineElement>
             {/* PMKK end */}
 

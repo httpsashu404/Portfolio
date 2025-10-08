@@ -31,7 +31,7 @@ function App() {
         </div>
         <div className="footer pb-3 ms-3">
           <Jump>
-            <h4 className="text-center">Made With &hearts; httpsashu404&copy;.2024</h4>
+            <h4 className="text-center">Made with &hearts; Httpsashu404</h4>
           </Jump>
         </div>
       </div>

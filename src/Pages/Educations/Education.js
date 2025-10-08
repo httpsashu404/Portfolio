@@ -25,11 +25,11 @@ const Education = () => {
             contentStyle={{ background: "white", color: "black" }}
             contentArrowStyle={{ borderRight: "7px solid  white" }}
             date="Sep-Oct, 2023"
-            iconStyle={{ background: "#49688e", color: "#fff" }}
+            iconStyle={{ background: "#49688e", color: "#fff" }} 
             icon={<MdSchool />}
           >
             <h3 className="vertical-timeline-element-title">MCA</h3>
-            <h5><a className="vertical-timeline-element-subtitle" href='https://gct.org.in/' target="__blank">GCT, Namakkal (Tamilnadu)</a></h5>
+            <h5><a className="vertical-timeline-element-subtitle" href='https://ibb.co/p6MsVGbT' target="__blank">GCT, Namakkal (Tamilnadu)</a></h5>
             <p className="text-secondary">I left it reason teaching language problem</p>
           </VerticalTimelineElement>
           {/* GCT end */}
@@ -44,7 +44,7 @@ const Education = () => {
             icon={<MdSchool />}
           >
             <h3 className="vertical-timeline-element-title">NIMCET Prepration (MCA)</h3>
-            <h5><a className="vertical-timeline-element-subtitle" href='https://ibb.co/W4wmj2QY' target="__blank">NIT Kurukshetra (Alloted me)</a></h5>
+            <h5><a className="vertical-timeline-element-subtitle" href='https://ibb.co/pvQbZt4Y' target="__blank">NIT Kurukshetra (Alloted me)</a></h5>
             <p className="text-secondary">I cancelled admission reason financial problem</p>
           </VerticalTimelineElement>
           {/* NIT end */}
@@ -74,7 +74,7 @@ const Education = () => {
             icon={<MdSchool />}
           >
             <h3 className="vertical-timeline-element-title">Itermediate</h3>
-            <h5><a className="vertical-timeline-element-subtitle" href='https://idbpscollege.in/' target="__blank">I.D.B.P.S college, Garh Nokha</a></h5>
+            <h5><a className="vertical-timeline-element-subtitle" href='https://idbpscollege.in/' target="__blank">I.D.B.P.S college, Garhnokha</a></h5>
             <p className="text-secondary">Science (maths) with 46%</p>
           </VerticalTimelineElement>
           {/* Intermediate end  */}

@@ -19,40 +19,6 @@
   /* margin-left: 150px; */
 }
 
-.home-buttons {
-  /* margin-left: 150px; */
-  margin-top: 20px;
-}
-
-.home-buttons .btn-call {
-  background-color: rgb(87, 87, 87);
-  color: white;
-  padding: 7px 10px 7px 10px;
-}
-.home-buttons .btn-call:hover {
-  opacity: 60%;
-  transition: .5s;
-}
-.home-buttons .btn-hire {
-  background-color: #3b8ff3;
-  color: white;
-  margin: 0px 15px 0px 15px;
-}
-.home-buttons .btn-hire:hover {
-  opacity: 60%;
-  transition: .5s;
-}
-
-.home-buttons .btn-cv {
-  background-color: #f29f67;
-  color: white;
-}
-
-.home-buttons .btn-cv:hover {
-  opacity: 60%;
-  transition: .5s;
-}
-
 .theme-btn {
   display: none;
   align-items: center;

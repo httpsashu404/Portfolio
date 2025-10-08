@@ -2,6 +2,8 @@ import React from "react";
 import { useTheme } from "../../context/ThemeContext";
 import Typewriter from "typewriter-effect";
 import { SlCallEnd } from "react-icons/sl";
+import { SiWhatsapp } from "react-icons/si";
+import { FaDownload } from "react-icons/fa";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 import "./Home.css";
 import Fade from "react-reveal/Fade";
@@ -59,18 +61,18 @@ const Home = () => {
           </Fade>
           <Fade bottom>
             <div className="home-buttons">
-              <a title="Call" className="btn btn-call" target="_blanck" href="tel:7763992074">
+              <a title="Call" className="btn btn-primary btn-outline-light" target="_blanck" href="tel:7763992074">
                 <SlCallEnd />
               </a>
               <a title="Hire me"
-                className="btn btn-hire"
+                className=" btn btn-success btn-outline-light mx-2"
                 target="_blanck" href="https://api.whatsapp.com/send?phone=7763992074"
                 rel="noreferrer"
               >
-                Hire Me
+                <SiWhatsapp />
               </a>
-              <button title="Resume" className="btn btn-cv" onClick={handleDownload}>
-                Resume
+              <button title="Resume" className="btn btn-dark btn-outline-light" onClick={handleDownload}>
+                Resume <FaDownload/>
               </button>
             </div>
           </Fade>
