@@ -29,7 +29,7 @@ const Education = () => {
             icon={<MdSchool />}
           >
             <h3 className="vertical-timeline-element-title">MCA</h3>
-            <h5><a className="vertical-timeline-element-subtitle" href='https://ibb.co/p6MsVGbT' target="__blank">GCT, Namakkal (Tamilnadu)</a></h5>
+            <h5><a className="vertical-timeline-element-subtitle" href='https://ibb.co/p6MsVGbT' target="__blank">GCT Namakkal, Tamilnadu</a></h5>
             <p className="text-secondary">I left it reason teaching language problem</p>
           </VerticalTimelineElement>
           {/* GCT end */}
@@ -43,8 +43,8 @@ const Education = () => {
             iconStyle={{ background: "#49688e", color: "#fff" }}
             icon={<MdSchool />}
           >
-            <h3 className="vertical-timeline-element-title">NIMCET Prepration (MCA)</h3>
-            <h5><a className="vertical-timeline-element-subtitle" href='https://ibb.co/pvQbZt4Y' target="__blank">NIT Kurukshetra (Alloted me)</a></h5>
+            <h3 className="vertical-timeline-element-title">NIMCET Prepration</h3>
+            <h5><a className="vertical-timeline-element-subtitle" href='https://ibb.co/pvQbZt4Y' target="__blank">NIT Kurukshetra (Alloted)</a></h5>
             <p className="text-secondary">I cancelled admission reason financial problem</p>
           </VerticalTimelineElement>
           {/* NIT end */}

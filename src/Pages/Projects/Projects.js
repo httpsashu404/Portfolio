@@ -8,7 +8,7 @@ const Projects = () => {
       <div className="continer project" id="projects">
         <Jump>
           <h2 className="col-12 mt-3 mb-1 text-center text-uppercase">
-            TOP RECENT PROJECTS
+            RECENT PROJECTS
           </h2>
         </Jump>
         <hr />

@@ -130,7 +130,7 @@ const WorkExp = () => {
               <h3 className="vertical-timeline-element-title">
                 Mobile manufacturing
               </h3>
-              <h5><a className="vertical-timeline-element-subtitle" href='https://ibb.co/HDg099L4' target="__blank">LAVA International Ltd. (Noida)</a></h5>
+              <h5><a className="vertical-timeline-element-subtitle" href='https://ibb.co/HDg099L4' target="__blank">LAVA International Ltd. Noida</a></h5>
               <p className="text-secondary">Trainee (Onsite)</p>
             </VerticalTimelineElement>
             {/* Lava end */}

@@ -28,7 +28,7 @@ const Course = () => {
                         iconStyle={{ background: "#49688e", color: "#fff" }}
                         icon={<MdSchool />}
                     >
-                        <h3 className="vertical-timeline-element-title">SSC Prepration (Myself)</h3>
+                        <h3 className="vertical-timeline-element-title">SSC Prepration</h3>
                         <h5><a className="vertical-timeline-element-subtitle" href='https://www.youtube.com/@rankersgurukullive' target="__blank">Rankers Gurukul (YouTube)</a></h5>
                         <p className="text-secondary">SSC, Banking, Railway, etc. </p>
                     </VerticalTimelineElement>

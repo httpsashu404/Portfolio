@@ -1,17 +1,16 @@
 import { BsFiletypeHtml, BsFiletypeCss, BsBootstrap } from "react-icons/bs";
 import { AiFillApi } from "react-icons/ai";
-import { FaNodeJs } from "react-icons/fa";
+import { FaNodeJs, FaDatabase } from "react-icons/fa";
+import { GrTroubleshoot, GrHost } from "react-icons/gr";
 import {
   SiJavascript,
   SiReact,
   SiTailwindcss,
   SiMongodb,
-  SiMysql,
-  SiPhp,
-  SiC,
-  SiPython,
   SiGithub,
   SiExpress,
+  SiCanva,
+  SiFreelancer,
 } from "react-icons/si";
 export const TechstackList = [
   {
@@ -66,27 +65,32 @@ export const TechstackList = [
   },
   {
     _id: 11,
-    name: "MySQL",
-    icon: SiMysql,
+    name: "Git / Github ",
+    icon: SiGithub,
   },
   {
     _id: 12,
-    name: "PHP",
-    icon: SiPhp,
+    name: "Troubleshooting",
+    icon: GrTroubleshoot,
   },
   {
     _id: 13,
-    name: "Python",
-    icon: SiPython,
+    name: "Canva ",
+    icon: SiCanva,
   },
   {
     _id: 14,
-    name: "C",
-    icon: SiC,
+    name: "Freelancer ",
+    icon: SiFreelancer,
   },
   {
     _id: 15,
-    name: "Git / Github ",
-    icon: SiGithub,
+    name: "Hosting ",
+    icon: GrHost,
+  },
+  {
+    _id: 16,
+    name: "Database ",
+    icon: FaDatabase,
   },
 ];
