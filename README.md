@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-**Live :** https://httpsashu404.netlify.app/ <br/>
+**Live :** https://httpsashu.netlify.app/ <br/>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
