@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-**Live :** https://httpsashu.netlify.app/ <br/>
+**Live :** https://httpsashu.netlify.app/ <br/><br/>
+<img width="960" height="540" alt="Image" src="https://github.com/user-attachments/assets/9c41a0a2-5817-438c-b9bd-835b6b00134c" />
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
